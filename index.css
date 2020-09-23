@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(229, 57%, 11%);
+  font-size: 14px;
+}
+
+.container {
+  background-image: url("./images/bg-desktop.png");
+  background-position: bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: calc(100vh - 20px);
+}
+
+.one {
+  background: hsl(228, 56%, 26%);
+  padding: 30px;
+  border-radius: 10px 80px 10px 10px;
+  width: 16rem;
+  height: 10rem;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.icon {
+  background-color: hsl(229, 57%, 11%);
+  padding: 10px;
+  height: 2.3rem;
+  border-radius: 8px;
+  margin: 0 5px;
+}
+/* .gb {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: 700;
+} */
+.two {
+  margin: 0 20px;
+  margin-top: 30px;
+  padding: 30px 20px 20px 40px;
+  background: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  width: 30rem;
+}
+.oke {
+  margin-bottom: 10px;
+  color: hsl(243, 100%, 93%);
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.file {
+  width: 21rem;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.meter {
+  width: 21rem;
+  height: 15px;
+  background-color: hsl(229, 57%, 11%);
+  padding: 1px;
+  border-radius: 40px;
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.prog {
+  display: block;
+  width: 81.5%;
+  height: 100%;
+  background-color: #f0a3a3;
+  background-image: linear-gradient(to right, #fe9e95, #fb4f93);
+  border-radius: 40px;
+  color: #f4f4f4;
+  font-size: 10px;
+  text-align: right;
+  padding: 0.5px;
+  padding-right: 2px;
+  border: none;
+}
+
+.info {
+  display: flex;
+  width: 22rem;
+  justify-content: space-between;
+  color: hsl(243, 100%, 93%);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    background-image: url("./images/bg-mobile.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    height: calc(100vh - 20px);
+  }
+
+  .one {
+    background: hsl(228, 56%, 26%);
+    padding: 30px;
+    border-radius: 10px 80px 10px 10px;
+    width: 16rem;
+    height: 10rem;
+  }
+
+  .icon {
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    height: 2.3rem;
+    border-radius: 8px;
+    margin: 0 5px;
+  }
+
+  .two {
+    margin: 0 20px;
+    margin-top: 30px;
+    padding: 30px 20px 20px 40px;
+    background: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    width: 24rem;
+  }
+
+  .file {
+    width: 18rem;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .info {
+    display: flex;
+    width: 19rem;
+    justify-content: space-between;
+    color: hsl(243, 100%, 93%);
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: calc(100vh - 30px);
+  }
+
+  .one {
+    background: hsl(228, 56%, 26%);
+    padding: 30px;
+    border-radius: 10px 80px 10px 10px;
+    width: 90vw;
+    height: 10rem;
+  }
+
+  .icon {
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    height: 2.3rem;
+    border-radius: 8px;
+    margin: 0 5px;
+  }
+
+  .two {
+    margin: 0 20px;
+    margin-top: 20px;
+    padding: 30px 20px 20px 20px;
+    background: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    width: 90vw;
+  }
+
+  .meter {
+    width: 99%;
+  }
+}
